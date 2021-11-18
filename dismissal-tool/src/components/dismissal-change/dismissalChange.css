@@ -1,0 +1,113 @@
+.change-header {
+  background-color: #002e91;
+  padding: 10px 0 12px;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+.change-body {
+  border: 1px solid black;
+  height: 610px;
+  border-radius: 5px;
+}
+
+.radio-group {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.ant-radio-button-wrapper:nth-child(1) {
+  width: 25% !important;
+}
+
+.ant-radio-button-wrapper:nth-child(2) {
+  width: 41% !important;
+}
+
+.ant-radio-button-wrapper:nth-child(3) {
+  width: 34% !important;
+}
+
+.form-item {
+  width: 295px;
+  border-radius: 2px;
+  margin: auto !important;
+  margin-bottom: 20px !important;
+}
+
+.ant-picker-calendar-mini .ant-picker-content {
+  height: auto !important;
+}
+
+.day-calendar {
+  border: #1890ff2e 1px solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.day-calendar .ant-picker-cell::before {
+  z-index: -1 !important;
+}
+
+.cell {
+  width: 74%;
+  height: 90%;
+  border-radius: 5px;
+  padding: 1px ;
+  margin-left: 13% !important;
+}
+
+.active {
+  background-color: #188fffdc;
+  color: #fff;
+}
+
+.day-btn {
+  margin-right: 4px;
+  width: 45px;
+  height: auto !important;
+  padding: 6px 12px !important;
+}
+
+.ant-form-item-label {
+  font-weight: bold;
+}
+
+.ant-col-17 {
+  max-width: 91% !important;
+}
+
+.input {
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.input:focus {
+  border-color: #40a9ff;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+}
+
+.error {
+  border-color: #ff4040;
+}
+
+.error:focus {
+  border-color: #ff4040;
+  box-shadow: 0 0 0 2px #ff404050;
+}
