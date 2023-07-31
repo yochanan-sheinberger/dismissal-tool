@@ -14,6 +14,7 @@ router.post("/get-dismissal-status", (req, res, next) => {
     if (err) {
       console.log(err.message);
     }
+    console.log(fields);
     const studentsData = organizeDismissalMethods(results);
     const dataByDay = setMonthDates(req.body.date, studentsData.obj);
     res.json({ dataByDay, ids: studentsData.ids });

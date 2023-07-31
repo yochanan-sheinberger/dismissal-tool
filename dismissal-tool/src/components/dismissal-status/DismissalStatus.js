@@ -26,7 +26,7 @@ function DismissalStatus({students, setStudentsData, studentsData, setDate, date
               className={students[item[0]] ? "show" : "hide"}
               key={item[0]}
             >
-              {item[1]}
+              {item[1]}{item[0]}
             </li> : ""
           ))}
         </ul>

@@ -50,14 +50,14 @@ connection.connect(function (err) {
   for (const table of tables) {
     connection.query(table, function (err, results, fields) {
       if (err) {
-        console.log(err.message);
+        console.log('err',err.message);
       }
     });
   }
 
   // connection.end(function (err) {
   //   if (err) {
-  //     return console.log(err.message);
+  //     return console.log('err', err.message);
   //   }
   // });
 
